@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/styles-30-green?style=for-the-badge" alt="30 Styles">
   <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="MIT License">
-  <img src="https://img.shields.io/badge/openclaw-compatible-orange?style=for-the-badge" alt="OpenClaw">
+  <img src="https://img.shields.io/badge/framework-agnostic-purple?style=for-the-badge" alt="Framework Agnostic">
 </p>
 
 > 30 curated design style prompts for frontend projects - apply beautiful, production-ready design systems to React, Vue, or any frontend project.
@@ -12,147 +12,191 @@
 
 **Design Prompts** is a comprehensive collection of 30 curated design system prompts for frontend development. Each style includes complete design specifications covering:
 
-- 🎨 **Color palette** - Exact hex codes
+- 🎨 **Color palette** - Exact hex codes with semantic naming
 - 🔤 **Typography** - Fonts, sizes, weights, line heights
-- 📏 **Spacing** - Consistent spacing system
-- 🌑 **Shadows & Effects** - Depth, glows, blurs
-- 🧩 **Component patterns** - Buttons, cards, inputs, etc.
-- ✨ **Animations** - Transitions, micro-interactions
+- 📏 **Spacing** - Consistent spacing system (4px base grid)
+- 🌑 **Shadows & Effects** - Depth, glows, blurs, borders
+- 🧩 **Component patterns** - Buttons, cards, inputs, modals
+- ✨ **Animations** - Transitions, micro-interactions, easing
 
-## 📚 Available Styles (30)
+## 📚 Style Catalog (30 Styles)
 
-### Corporate & Professional
+### 🎯 By Use Case
 
-| Style | Theme | Description |
-|-------|-------|-------------|
-| SaaS | Light | Bold minimalist with Electric Blue gradients |
-| Professional | Light | Editorial minimalist, elegant serif, ivory background |
-| Enterprise | Light | Modern SaaS, indigo/violet gradients |
-| Swiss Minimalist | Light | International Typographic Style, mathematical grids |
+#### Corporate & Business
+| Style | Theme | Best For |
+|-------|-------|----------|
+| SaaS | Light | Startups, Web apps, Dashboards |
+| Enterprise | Light | B2B SaaS, Admin panels, CRM |
+| Professional | Light | Consulting, Legal, Finance |
+| Swiss Minimalist | Light | Architecture, Design agencies |
 
-### Modern & Tech
+#### Modern & Tech
+| Style | Theme | Best For |
+|-------|-------|----------|
+| Modern Dark | Dark | Developer tools, IDEs, Gaming |
+| Minimal Dark | Dark | Mobile apps, Subscriptions |
+| Web3 | Dark | Crypto, DeFi, Blockchain |
+| Terminal | Dark | CLI tools, Documentation |
+| Cyberpunk | Dark | Games, Sci-fi, Hacking themes |
 
-| Style | Theme | Description |
-|-------|-------|-------------|
-| Modern Dark | Dark | Cinematic dark mode with ambient lighting & micro-interactions |
-| Minimal Dark | Dark | Deep slate, warm amber, glass cards |
-| Web3 | Dark | Bitcoin orange, glowing elements, data visualization |
-| Cyberpunk | Dark | Neon on black, glitch animations, terminal fonts |
-| Terminal | Dark | Retro command-line interface aesthetic |
+#### Retro & Nostalgia
+| Style | Theme | Best For |
+|-------|-------|----------|
+| Retro | Light | 90s nostalgia, Personal sites |
+| Vaporwave | Dark | Music, Art, Experimental |
+| Newsprint | Light | Blogs, Editorial, Magazine |
+| Academia | Light | Educational, Research, Library |
 
-### Retro & Vintage
+#### Elegant & Luxurious
+| Style | Theme | Best For |
+|-------|-------|----------|
+| Luxury | Light | High-end brands, Jewelry, Fashion |
+| Monochrome | Light | Editorial, Portfolio, Art |
+| Art Deco | Dark | Gatsby-style, Wedding, Premium |
+| Botanical | Light | Wellness, Nature, Eco-friendly |
 
-| Style | Theme | Description |
-|-------|-------|-------------|
-| Retro | Light | 90s nostalgia, Windows 95 beveled UI |
-| Vaporwave | Dark | 80s retro-futurism, neon pinks & cyans |
-| Newsprint | Light | Newspaper aesthetic, high contrast, tight grids |
-| Academia | Light | University aesthetic, warm paper textures |
+#### Creative & Bold
+| Style | Theme | Best For |
+|-------|-------|----------|
+| Neo Brutalism | Light | Portfolio, Landing pages, MVP |
+| Bauhaus | Light | Creative agencies, Art galleries |
+| Kinetic | Dark | Motion graphics, Entertainment |
+| Bold Typography | Dark | Posters, Headlines, Branding |
+| Maximalism | Dark | E-commerce, Marketplace, Festival |
 
-### Elegant & Premium
+#### Playful & Friendly
+| Style | Theme | Best For |
+|-------|-------|----------|
+| Playful Geometric | Light | Kids, Education, Lifestyle |
+| Claymorphism | Light | Mobile apps, Consumer apps |
+| Sketch | Light | Handmade, Artisan, Creative |
 
-| Style | Theme | Description |
-|-------|-------|-------------|
-| Luxury | Light | Elegant serif, gold accents, ultra-slow animations |
-| Monochrome | Light | Stark editorial design, pure black & white |
-| Art Deco | Dark | 1920s Gatsby elegance, geometric precision |
-| Botanical | Light | Nature-inspired, organic shapes, earth tones |
+#### Minimal & Clean
+| Style | Theme | Best For |
+|-------|-------|----------|
+| Flat Design | Light | Government, Healthcare, Utility |
+| Neumorphism | Light | IoT dashboards, Settings |
+| Organic | Light | Sustainability, Organic food |
+| Material Design | Light | Android apps, Productivity |
 
-### Bold & Creative
-
-| Style | Theme | Description |
-|-------|-------|-------------|
-| Neo Brutalism | Light | Raw, high-contrast, cream background, thick borders |
-| Bauhaus | Light | Bold geometric modernism with primary colors |
-| Kinetic | Dark | Motion-first design with infinite marquees |
-| Bold Typography | Dark | Massive typography as primary visual element |
-| Maximalism | Dark | Clashing patterns, dense layouts, MORE IS MORE |
-
-### Playful & Fun
-
-| Style | Theme | Description |
-|-------|-------|-------------|
-| Playful Geometric | Light | Vibrant geometric decorations, Memphis design |
-| Claymorphism | Light | 3D inflatable clay objects, candy colors |
-| Sketch | Light | Hand-drawn, wobbly borders, paper textures |
-| Neo Brutalism | Light | Raw, high-contrast, cream background, thick borders |
-
-### Minimal & Clean
-
-| Style | Theme | Description |
-|-------|-------|-------------|
-| Flat Design | Light | Pure color, typography, and layout |
-| Neumorphism | Light | Extruded elements via dual shadows |
-| Organic | Light | Earth palette, blob shapes, wabi-sabi warmth |
-| Material Design | Light | Google's Material Design 3 enhanced |
-
-### Industrial
-
-| Style | Theme | Description |
-|-------|-------|-------------|
-| Industrial | Light | Dieter Rams inspired, tactile neumorphic elements |
+#### Industrial
+| Style | Theme | Best For |
+|-------|-------|----------|
+| Industrial | Light | Hardware, Electronics, Engineering |
 
 ## 🚀 Quick Start
 
-### 1. Choose a Style
+### Option 1: Via skills CLI (Recommended)
 
-Browse the 30 styles above and pick one that matches your project vibe.
+```bash
+npx skills add wangpf1129/design-prompts
+```
 
-### 2. Load the Reference
+### Option 2: Manual Install
 
-Each style has a detailed reference file in `references/`:
-- `references/neo-brutalism.md`
-- `references/cyberpunk.md`
-- `references/claymorphism.md`
-- ...and 27 more!
+```bash
+# Clone the repository
+git clone https://github.com/wangpf1129/design-prompts.git
 
-### 3. Apply to Your Project
+# Copy to your agents skills directory
+cp -r design-prompts ~/.agents/skills/
+```
 
-Read the reference file and extract:
-- Colors → CSS variables or Tailwind config
-- Typography → Font families, sizes
-- Spacing → Gap/margin scale
-- Effects → Box shadows, borders
+### Usage with AI Agent
 
-### Example: Neo Brutalism
+```
+You: I want to build a landing page for a indie game store
+Agent: I'll use the Neo Brutalism style for your game store - it fits the indie/creative vibe perfectly. Let me apply the design system...
+```
+
+## 💡 How It Works
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    Your Request                         │
+│  "Build a dashboard for my SaaS analytics tool"        │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+┌─────────────────────────────────────────────────────────┐
+│              Style Matching Engine                      │
+│  • Analyzes project type, audience, goals              │
+│  • Matches against 30 style metadata                   │
+│  • Returns best-fit style(s)                           │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+┌─────────────────────────────────────────────────────────┐
+│            Load Design System                           │
+│  references/enterprise.md → Colors, Fonts, Spacing     │
+└─────────────────────┬───────────────────────────────────┘
+                      ▼
+┌─────────────────────────────────────────────────────────┐
+│           Apply to Your Codebase                        │
+│  • CSS Variables / Tailwind Config                     │
+│  • Component patterns                                   │
+│  • Consistent design tokens                             │
+└─────────────────────────────────────────────────────────┘
+```
+
+## 📖 Practical Guide
+
+### When to Use What?
+
+| Your Project | Recommended Style | Why |
+|--------------|------------------|-----|
+| E-commerce store | SaaS, Enterprise | Trust, conversion-focused |
+| Developer tool | Terminal, Modern Dark | Familiar, productive |
+| Portfolio | Neo Brutalism, Sketch | Stand out, creative |
+| Blog/Magazine | Newsprint, Professional | Readable, editorial |
+| Game/Gaming | Cyberpunk, Kinetic | Immersive, exciting |
+| Crypto/DeFi | Web3, Minimal Dark | Modern, trustworthy |
+| Luxury brand | Luxury, Art Deco | Premium, elegant |
+| Mobile app | Claymorphism, Material | Touch-friendly |
+| Landing page | Neo Brutalism, Bold Typography | Attention-grabbing |
+
+### Example: Applying a Style
 
 ```css
-/* From references/neo-bralism.md */
+/* 1. Load tokens from references/[style].md */
 :root {
-  --color-background: #FFF9F0;
-  --color-primary: #FF4D4D;
-  --color-secondary: #FFF056;
-  --color-text: #000000;
-  --border-width: 4px;
-  --shadow-offset: 6px;
+  /* Neo Brutalism */
+  --bg: #FFF9F0;
+  --text: #000;
+  --primary: #FF4D4D;
+  --secondary: #FFF056;
+  --border: 4px solid #000;
+  --shadow: 6px 6px 0 #000;
+  --font-display: 'Space Grotesk', sans-serif;
 }
 
-.btn {
-  background: var(--color-secondary);
-  border: var(--border-width) solid var(--color-text);
-  box-shadow: var(--shadow-offset) var(--shadow-offset) 0 var(--color-text);
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
-  padding: 12px 24px;
+/* 2. Apply to components */
+.card {
+  background: var(--secondary);
+  border: var(--border);
+  box-shadow: var(--shadow);
+  font-family: var(--font-display);
+  padding: 1.5rem;
 }
 ```
 
-### Example: Cyberpunk (Tailwind)
+### Tailwind Example
 
 ```js
-// From references/cyberpunk.md
-const cyberpunkTheme = {
-  colors: {
-    background: '#0a0a0f',
-    primary: '#00ffff',
-    secondary: '#ff00ff',
-    accent: '#ffff00',
-  },
-  fontFamily: {
-    mono: ['JetBrains Mono', 'monospace'],
-  },
-  boxShadow: {
-    neon: '0 0 10px #00ffff, 0 0 20px #00ffff',
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        // From references/modern-dark.md
+        background: '#0a0a0f',
+        primary: '#00ffff',
+        secondary: '#ff00ff',
+        surface: '#151520',
+      },
+      fontFamily: {
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+    },
   },
 }
 ```
@@ -162,108 +206,54 @@ const cyberpunkTheme = {
 ```
 design-prompts/
 ├── README.md              # This file
-├── SKILL.md               # OpenClaw skill format
+├── SKILL.md               # OpenClaw skill definition
 ├── .gitignore
-├── references/            # Detailed style references
-│   ├── monochrome.md
+├── references/            # Complete design systems
+│   ├── monochrome.md      # ~500 lines per file
 │   ├── bauhaus.md
-│   ├── modern-dark.md
 │   ├── cyberpunk.md
 │   ├── neo-brutalism.md
-│   ├── claymorphism.md
 │   └── ... (30 total)
 └── LICENSE
 ```
 
-## 🤖 OpenClaw Integration
+## 🔧 Framework Support
 
-This skill is designed for [OpenClaw](https://github.com/openclaw/openclaw) AI assistants.
+| Framework | How to Use |
+|-----------|------------|
+| React + Tailwind | Extract colors to `tailwind.config.js` |
+| Vue | Add to `App.vue` CSS variables |
+| Plain HTML/CSS | Import `references/*.md` CSS directly |
+| Next.js | Add to `globals.css` |
+| Svelte | Add to `<style:global>` |
+| React Native | Map colors to platform tokens |
 
-### Install
+## ⚡️ Comparison
 
-```bash
-# Copy to your skills directory
-cp -r design-prompts ~/.agents/skills/
-```
-
-### Usage
-
-When working with an OpenClaw agent:
-
-1. Tell the agent your desired style: "Use neo-brutalism style"
-2. The agent will load `references/neo-brutalism.md`
-3. Apply the design system to your project
-
-### Triggers
-
-This skill activates when you mention:
-- Design style names (neo-brutalism, cyberpunk, etc.)
-- Keywords: "design style", "UI aesthetic", "front-end design"
-- Style categories: "modern", "retro", "minimal", "playful"
-
-## 📖 Style Guide
-
-### Choosing the Right Style
-
-**Corporate/Business:**
-- SaaS, Professional, Enterprise, Swiss Minimalist
-
-**Creative/Artistic:**
-- Bauhaus, Art Deco, Maximalism, Sketch
-
-**Modern/Tech:**
-- Modern Dark, Minimal Dark, Web3, Cyberpunk, Terminal
-
-**Retro/Vintage:**
-- Retro, Vaporwave, Newsprint, Academia
-
-**Playful/Fun:**
-- Neo Brutalism, Playful Geometric, Claymorphism
-
-**Elegant/Premium:**
-- Luxury, Monochrome, Botanical
-
-**Nature/Organic:**
-- Botanical, Organic
-
-**Industrial/Technical:**
-- Industrial, Material Design, Flat Design
-
-**Experimental:**
-- Kinetic, Neumorphism
+| Feature | ad-hoc prompting | design-prompts |
+|---------|------------------|----------------|
+| Consistency | ❌ Variable | ✅ Fixed design system |
+| Completeness | ⚠️ Partial | ✅ Full tokens + components |
+| Speed | ❌ Iterative | ✅ Direct application |
+| Style variety | Limited | 30 curated styles |
+| Reference docs | ❌ None | ✅ 30 detailed guides |
 
 ## 🙏 Credits & Inspiration
 
-This project is **heavily inspired by [designprompts.dev](https://www.designprompts.dev/)** - a popular resource that went viral on Twitter/X for providing AI-driven design prompts for frontend projects.
+Heavily inspired by **[designprompts.dev](https://www.designprompts.dev/)** - a viral Twitter/X resource for AI-driven design prompts.
 
-The original designprompts.dev collection sparked the idea for this comprehensive skill, which expands on those concepts with:
-
-- Complete, production-ready design specifications
+This collection expands on the original concept:
+- Complete, production-ready specifications
 - Multiple output formats (CSS, Tailwind, etc.)
 - OpenClaw agent integration
-- 30 carefully curated styles (vs. the original ~10)
-
-## 🔧 Tech Stack Compatibility
-
-All style references are framework-agnostic and can be used with:
-
-- **React** - Tailwind, Styled Components, CSS Modules
-- **Vue** - Tailwind, SCSS, Composition API
-- **Plain HTML/CSS** - Any CSS methodology
-- **Next.js / Nuxt** - Full-stack frameworks
-- **Svelte** - Component-based styling
-- **Mobile** - React Native, Flutter
-
-## 📄 License
-
-MIT License - feel free to use in your projects!
+- 30 carefully curated styles (vs ~10 original)
 
 ## 🏆 Live Demos
 
-Here are real-world projects built using this design prompts skill:
+Real projects built with this skill:
 
-| Project | Description | Style Used |
-|---------|-------------|-------------|
+| Project | Description | Style |
+|---------|-------------|-------|
 | [niji-dream](https://dream.hottotech.co.jp/) | AI Dream Interpreter | Neo Brutalism |
 | [niji-fortune](https://fortune.hottotech.co.jp/) | Daily Fortune Teller | Cyberpunk |
 | [niji-mbti](https://mbti.hottotech.co.jp/) | MBTI Personality Test | Claymorphism |
