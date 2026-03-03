@@ -264,9 +264,9 @@ Here are real-world projects built using this design prompts skill:
 
 | Project | Description | Style Used |
 |---------|-------------|-------------|
-| [niji-dream](https://dream.hottotech.co.jp/) | 梦境解析 - AI Dream Interpreter | Neo Brutalism |
-| [niji-fortune](https://fortune.hottotech.co.jp/) | 每日运势 - Daily Fortune Teller | Cyberpunk |
-| [niji-mbti](https://mbti.hottotech.co.jp/) | MBTI 诊断 - MBTI Personality Test | Claymorphism |
+| [niji-dream](https://dream.hottotech.co.jp/) | AI Dream Interpreter | Neo Brutalism |
+| [niji-fortune](https://fortune.hottotech.co.jp/) | Daily Fortune Teller | Cyberpunk |
+| [niji-mbti](https://mbti.hottotech.co.jp/) | MBTI Personality Test | Claymorphism |
 
 ---
 
