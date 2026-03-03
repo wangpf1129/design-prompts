@@ -258,6 +258,16 @@ All style references are framework-agnostic and can be used with:
 
 MIT License - feel free to use in your projects!
 
+## 🏆 Live Demos
+
+Here are real-world projects built using this design prompts skill:
+
+| Project | Description | Style Used |
+|---------|-------------|-------------|
+| [niji-dream](https://dream.hottotech.co.jp/) | 梦境解析 - AI Dream Interpreter | Neo Brutalism |
+| [niji-fortune](https://fortune.hottotech.co.jp/) | 每日运势 - Daily Fortune Teller | Cyberpunk |
+| [niji-mbti](https://mbti.hottotech.co.jp/) | MBTI 诊断 - MBTI Personality Test | Claymorphism |
+
 ---
 
 <p align="center">Made with ❤️ for the frontend community</p>
